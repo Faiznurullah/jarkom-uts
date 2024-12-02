@@ -1,0 +1,19 @@
+# Chat Sederhana Berbasis Socket Programming
+Proyek ini adalah implementasi fitur chat berbasis socket programming dengan Java.
+
+## Cara Menjalankan
+1. **Compile kode**:
+
+2. **Jalankan Server**:
+
+4. Server akan berjalan di `localhost` port `12345`.
+
+## Fitur
+- Server menangani banyak client menggunakan multithreading.
+- Pesan yang dikirim satu client akan diteruskan ke semua client lain.
+- Client memiliki antarmuka sederhana untuk mengirim dan menerima pesan.
+
+## Spesifikasi
+- **Bahasa**: Java
+- **Pustaka**: `java.net`, `javax.swing`
+- **Port**: 12345
